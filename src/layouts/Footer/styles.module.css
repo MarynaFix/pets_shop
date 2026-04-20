@@ -1,0 +1,60 @@
+.footer {
+  display: grid;
+  grid-template-columns: 780px 548px;
+  grid-template-rows: 1fr 1fr;
+  gap: 2rem;
+}
+.contact {
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+.contact > h1 {
+  font-size: 4rem;
+  color: rgba(40, 40, 40, 1);
+}
+.footer-map {
+  grid-column: 1 / -1;
+}
+.footerCard1 {
+  max-height: 150px;
+  background-color: rgba(241, 243, 244, 1);
+  color: rgba(40, 40, 40, 1);
+  font-size: 2.5rem;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2rem;
+  gap: 1rem;
+  border-radius: 10px;
+}
+.footerCard2 {
+  max-height: 194px;
+  background-color: rgba(241, 243, 244, 1);
+  color: rgba(40, 40, 40, 1);
+  font-size: 2.5rem;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2rem;
+  gap: 1rem;
+  border-radius: 10px;
+}
+.right {
+  max-width: 548px;
+  min-width: 548px;
+}
+.left {
+  max-width: 780px;
+}
+.heading {
+  font-size: 1.5rem;
+  color: rgba(139, 139, 139, 1);
+}
+.icons {
+  display: flex;
+  gap: 1rem;
+}

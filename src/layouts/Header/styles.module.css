@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.3rem;
+  padding: 2.5rem;
+  width: 100%;
+  max-width: 1440px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.nav a {
+  text-decoration: none;
+  color: #404040;
+  transition: color 0.2s;
+}
+a:active {
+  color: #0d50ff;
+}
+.nav a:hover {
+  color: #0d50ff;
+}
