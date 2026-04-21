@@ -35,6 +35,14 @@ form input {
 input::placeholder {
   color: rgba(255, 255, 255, 1);
 }
+
+.errorMess {
+  font-size: 1rem;
+  margin-top: 0.3rem;
+  color: rgb(248, 195, 195);
+  margin-left: 0.5rem;
+}
+
 form button {
   padding: 1rem 2rem;
   border-radius: 5px;

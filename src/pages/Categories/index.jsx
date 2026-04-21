@@ -14,7 +14,7 @@ const Categories = () => {
 
   return (
     <section className={styles.wrapper}>
-      <h2>All Categories</h2>
+      <h1>Categories</h1>
       <div className={styles.grid}>
         {categories.map((category) => (
           <Link

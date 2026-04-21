@@ -6,7 +6,7 @@ import AllProducts from "../pages/AllProducts";
 import AllSales from "../pages/AllSales";
 import Cart from "../pages/Cart";
 import NotFound from "../pages/NotFound";
-import CategoryPage from "../components/CategoryPage";
+import CategoryPage from "../pages/CategoryPage";
 const AppRouter = () => {
   return (
     <Routes>

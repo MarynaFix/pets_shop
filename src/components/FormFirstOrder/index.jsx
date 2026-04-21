@@ -40,7 +40,9 @@ const FormFirstOrder = () => {
               placeholder="Name"
               {...register("name", { required: "Enter name" })}
             />
-            {errors.name && <p>{errors.name.message}</p>}
+            {errors.name && (
+              <p className={styles.errorMess}>{errors.name.message}</p>
+            )}
           </div>
 
           <div>
@@ -50,7 +52,9 @@ const FormFirstOrder = () => {
                 required: "Enter phone",
               })}
             />
-            {errors.phone && <p>{errors.phone.message}</p>}
+            {errors.phone && (
+              <p className={styles.errorMess}>{errors.phone.message}</p>
+            )}
           </div>
 
           <div>
@@ -64,7 +68,9 @@ const FormFirstOrder = () => {
                 },
               })}
             />
-            {errors.email && <p>{errors.email.message}</p>}
+            {errors.email && (
+              <p className={styles.errorMess}>{errors.email.message}</p>
+            )}
           </div>
 
           <button type="submit">Get a discount</button>
