@@ -1,7 +1,7 @@
 .footer {
   display: grid;
   grid-template-columns: 780px 548px;
-  grid-template-rows: 1fr 1fr;
+
   gap: 2rem;
 }
 .contact {
