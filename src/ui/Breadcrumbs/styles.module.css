@@ -1,0 +1,18 @@
+.routeBtn {
+  border: 1px solid rgba(139, 139, 139, 1);
+  text-decoration: none;
+  color: rgba(40, 40, 40, 1);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.breadContainer a {
+  text-decoration: none;
+  color: rgba(139, 139, 139, 1);
+}
+.breadContainer {
+  padding: 3rem 0 2rem 0;
+  border-top: 1px solid rgba(139, 139, 139, 1);
+}
+.dash {
+  color: rgba(139, 139, 139, 1);
+}

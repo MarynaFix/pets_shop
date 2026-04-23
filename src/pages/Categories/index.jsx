@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
 import { fetchCategories } from "../../store/categoriesSlice";
+import Breadcrumbs from "../../ui/Breadcrumbs";
 
 const Categories = () => {
   const categories = useSelector((state) => state.categories.list || []);
@@ -14,6 +15,7 @@ const Categories = () => {
 
   return (
     <section className={styles.wrapper}>
+      <Breadcrumbs />
       <h1>Categories</h1>
       <div className={styles.grid}>
         {categories.map((category) => (
