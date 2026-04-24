@@ -1,0 +1,72 @@
+.addBtn {
+  transition: 0.3s;
+  color: rgba(255, 255, 255, 1);
+  font-size: 1.5rem;
+  background-color: #0d50ff;
+  text-decoration: none;
+  padding: 1rem;
+  border-radius: 10px;
+  border: none;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.counter {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.counter button {
+  width: 40px;
+  height: 40px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 3px;
+  border: 1px solid rgba(139, 139, 139, 1);
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2rem;
+}
+.descStrong {
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.imageBlock {
+  max-width: 700px;
+}
+.imageBlock .image {
+  width: 300px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.info h1 {
+  font-size: 40px;
+}
+.description {
+  font-size: 1rem;
+  max-width: 548px;
+}
+.price {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 3rem;
+  padding: 0.5rem;
+}
+.oldPrice {
+  text-decoration: line-through;
+  color: rgba(139, 139, 139, 1);
+  font-size: 2rem;
+}

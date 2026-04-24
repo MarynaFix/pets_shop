@@ -1,0 +1,104 @@
+.addBtn {
+  opacity: 0;
+  transition: 0.3s;
+  color: rgba(255, 255, 255, 1);
+  font-size: 1.5rem;
+  background-color: #0d50ff;
+  text-decoration: none;
+  padding: 1rem;
+  border-radius: 10px;
+  border: none;
+  position: absolute;
+}
+
+.card:hover .addBtn {
+  opacity: 1;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.wrapper {
+  padding: 2.5rem 3rem;
+}
+
+.header {
+  margin-bottom: 1.5rem;
+  font-size: 4rem;
+}
+.sort {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+.notifications {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4rem;
+  font-size: 1rem;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+  margin-top: 2rem;
+}
+.grid a {
+  text-decoration: none;
+  color: inherit;
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 316px;
+  height: 100%;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: rgba(40, 40, 40, 1);
+  transition: 0.2s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(221, 221, 221, 1);
+  border-radius: 10px;
+}
+
+.card:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.card img {
+  width: 100%;
+  max-width: 316px;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.cardText {
+  text-align: center;
+  display: -webkit-box;
+  line-clamp: 2;
+  box-orient: vertical;
+  overflow: hidden;
+  padding: 1rem;
+}
+
+.checkbox {
+  align-items: center;
+  transform: scale(1.5);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 1rem;
+  font-size: 1rem;
+}
+.price {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: space-between;
+  padding: 0.5rem;
+}

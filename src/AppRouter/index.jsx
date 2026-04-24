@@ -4,7 +4,7 @@ import MainPage from "../pages/MainPage";
 import Categories from "../pages/Categories";
 import AllProducts from "../pages/AllProducts";
 import AllSales from "../pages/AllSales";
-import Cart from "../pages/Cart";
+import CartPage from "../pages/CartPage";
 import NotFound from "../pages/NotFound";
 import CategoryPage from "../pages/CategoryPage";
 import ProductPage from "../pages/ProductPage";
@@ -17,7 +17,7 @@ const AppRouter = () => {
       <Route path="/products" element={<AllProducts />} />
       <Route path="/products/:id" element={<ProductPage />} />
       <Route path="/sales" element={<AllSales />} />
-      <Route path="/cart" element={<Cart />} />
+      <Route path="/cart" element={<CartPage />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
   );

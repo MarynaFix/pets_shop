@@ -1,0 +1,107 @@
+.headerRow {
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.line {
+  border-bottom: 1px solid #ddd;
+  max-width: 1067px;
+  flex: 1;
+  height: 1px;
+  background: #ddd;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 110%;
+  color: #282828;
+  margin-bottom: 0;
+}
+
+.backBtn {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #8b8b8b;
+  font-size: 20px;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 560px;
+  align-items: start;
+  gap: 32px;
+  margin-bottom: 80px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.empty {
+  margin-top: 60px;
+  color: #282828;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+}
+
+.shopLink {
+  display: inline-block;
+  margin-top: 32px;
+  background-color: #0d50ff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 130%;
+  text-align: center;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 16px 56px;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.shopLink:hover {
+  background-color: #282828;
+  color: #fff;
+}
+@media (max-width: 1350px) {
+  .layout {
+    grid-template-columns: 1fr 460px; /* было шире, делаем уже */
+    gap: 24px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 825px) {
+  .title {
+    font-size: 44px;
+  }
+
+  .backBtn {
+    font-size: 16px;
+  }
+}
+@media (max-width: 642px) {
+  .headerRow {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+@media (max-width: 412px) {
+  .shopLink {
+    padding: 16px 36px;
+  }
+}
